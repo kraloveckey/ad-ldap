@@ -10,7 +10,8 @@
   - [`ou.txt`](./ad-inventory/ou.txt) – this file must contain the full paths of the OU with Active Directory computers. This file must be located in the same directory when starting [**ad-inventory.ps1**](./ad-inventory/ad-inventory.ps1).
   - [`ad-report.ps1`](./ad-inventory/ad-report.ps1) – script gathers statistics about user accounts (total, active, disabled, new, service accounts) and groups (those missing a description) from specific OUs. It then saves this information into a dated text file and send by email.
 
-> [!NOTE] Description of the files that are sent to the mail in the archive after ad-inventory.ps1 execution.
+> [!NOTE]
+> Description of the files that are sent to the mail in the archive after **`ad-inventory.ps1`** execution:
 >| Name      |  Description |
 > | ----------- |  ----------- |
 > | `OU-Computers.csv` | Contains information on computers: Name, When online, OU, OS, OS Version, IP, CPU, Frequency – MHz, Number of cores, RAM capacity – MB, Drive capacity – GB, Drive models. |
