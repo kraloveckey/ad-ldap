@@ -1,0 +1,4 @@
+msldap==0.5.15
+pycryptodome>=3.12
+minikerberos>=0.4.2
+openpyxl>=3.1

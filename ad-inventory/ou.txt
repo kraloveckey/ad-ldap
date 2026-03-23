@@ -1,0 +1,3 @@
+OU=Admins,OU=Example,DC=Example,DC=com
+OU=Sales,OU=Example,DC=Example,DC=com
+OU=Other,OU=Example,DC=Example,DC=com
